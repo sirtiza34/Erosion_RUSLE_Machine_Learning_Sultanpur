@@ -35,3 +35,7 @@ interrupted run of `03_nested_cv.R` continues where it stopped.
 
 ## Licence
 Code: MIT. Data: CC BY 4.0.
+
+## Citation
+
+Majid, S. I. (2026). Soil Organic Carbon Simulation with Physics-informed Machine Learning (PIML) and Wavelet Decomposition (Version v1.1) [Computer software]. Zenodo. https://doi.org/10.5281/zenodo.22806694
