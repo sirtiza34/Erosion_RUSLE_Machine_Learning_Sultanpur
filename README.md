@@ -11,13 +11,13 @@ by nested, spatially blocked cross-validation.
 | `data/sample_points_15000.shp` | 15,000 sample points (WGS 84 / UTM 44N): `id`, RUSLE soil loss `E` (t ha⁻¹ yr⁻¹), `stratum` (0: E < 1, 1: 1 ≤ E < 5, 2: E ≥ 5), `label` (E ≥ 5), `weight` (cells represented), GV01–GV17 and the R, K, LS and C values |
 | `data/spatial_folds_5km.csv` | outer fold, 5 km block and buffer flags of each point |
 | `R/00_setup.R` | settings, paths, packages and shared functions |
-| `R/01_screening.R` | association matrix, GVIF, overlap with the RUSLE factors (Fig. S5, Table S13) |
-| `R/02_spatial_folds.R` | 5 km blocks, five folds, 1.2 km buffer (Table S16, Fig. S6) |
-| `R/03_nested_cv.R` | nested spatial CV, both designs, both variable sets (Table S18); several hours |
-| `R/04_evaluation.R` | performance, CIs, paired comparisons, confusion matrices (Table 4, Tables S19–S22, Figs 5–7) |
-| `R/05_importance.R` | permutation importance (Table S23, Fig. 8) |
-| `R/06_final_maps.R` | final Set B models and susceptibility maps (Table S24, Fig. 9) – needs the Zenodo rasters |
-| `R/07_autocorrelation.R` | autocorrelation ranges used for the block size (Table S15) – needs the Zenodo rasters |
+| `R/01_screening.R` | association matrix, GVIF, overlap with the RUSLE factors |
+| `R/02_spatial_folds.R` | 5 km blocks, five folds, 1.2 km buffer |
+| `R/03_nested_cv.R` | nested spatial CV, both designs, both variable sets |
+| `R/04_evaluation.R` | performance, CIs, paired comparisons, confusion matrices |
+| `R/05_importance.R` | permutation importance |
+| `R/06_final_maps.R` | final Set B models and susceptibility maps – needs the Zenodo rasters |
+| `R/07_autocorrelation.R` | autocorrelation ranges used for the block size – needs the Zenodo rasters |
 | `run_all.R` | runs all steps in order |
 
 The points were drawn from the baseline RUSLE soil-loss map in three strata (5,000 per stratum, seed 2026,
