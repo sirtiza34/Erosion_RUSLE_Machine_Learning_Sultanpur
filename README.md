@@ -33,5 +33,9 @@ Steps 01–05 need only `data/`. For steps 06–07, download the rasters from Ze
 Results are written to `results/`. Finished cross-validation tasks are kept in `results/models/`, so an
 interrupted run of `03_nested_cv.R` continues where it stopped.
 
+## Contributors
+
+Co-authored-by: Dr Sourav Bhadwal <bhadwalsourav@gmail.com>
+
 ## Licence
 Code: MIT. Data: CC BY 4.0.
