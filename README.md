@@ -35,7 +35,7 @@ interrupted run of `03_nested_cv.R` continues where it stopped.
 
 ## Contributors
 
-Co-authored-by: Dr Sourav Bhadwal <bhadwalsourav@gmail.com>
+Co-authored-by: Dr Sourav Bhadwal <sourav.jrf.civ26@itbhu.ac.in>
 
 ## Licence
 Code: MIT. Data: CC BY 4.0.
