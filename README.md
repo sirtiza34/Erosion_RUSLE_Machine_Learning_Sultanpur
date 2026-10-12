@@ -22,7 +22,7 @@ by nested, spatially blocked cross-validation.
 
 The points were drawn from the baseline RUSLE soil-loss map in three strata (5,000 per stratum, seed 2026,
 no two points in adjacent cells), and the variable values were extracted at the cell centres of the 30 m
-rasters archived on Zenodo: https://doi.org/10.5281/zenodo.XXXXXXX
+rasters archived on Zenodo: https://doi.org/10.5281/zenodo.23297006
 
 ## Requirements
 R 4.3.3 with C50 0.2.0, kernlab 0.9-33, nnet 7.3-19, blockCV 4.0-1, sf, terra, FNN and corrplot.
@@ -38,4 +38,4 @@ Code: MIT. Data: CC BY 4.0.
 
 ## Citation
 
-Majid, S. I. (2026). Soil Organic Carbon Simulation with Physics-informed Machine Learning (PIML) and Wavelet Decomposition (Version v1.1) [Computer software]. Zenodo. https://doi.org/10.5281/zenodo.22806694
+Majid, S. I. (2026). Rasters for RUSLE soil loss and machine-learning erosion susceptibility, Sultanpur district, India (Version 1.0) [Dataset]. Zenodo. https://doi.org/10.5281/zenodo.23297006
