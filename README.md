@@ -38,4 +38,4 @@ Code: MIT. Data: CC BY 4.0.
 
 ## Citation
 
-Majid, S. I. (2026). Rasters for RUSLE soil loss and machine-learning erosion susceptibility, Sultanpur district, India (Version 1.0) [Dataset]. Zenodo. https://doi.org/10.5281/zenodo.23297006
+Majid, S. I. (2026). Integrating RUSLE and Machine Learning for Soil Erosion Susceptibility Mapping in the Central Indo-Gangetic Plains: R Code and Sample Data (Version v1.0) [Computer software]. Zenodo. https://doi.org/10.5281/zenodo.23314482
